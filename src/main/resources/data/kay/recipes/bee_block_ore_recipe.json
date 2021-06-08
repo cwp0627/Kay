@@ -1,0 +1,13 @@
+{
+  "group": "kay",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kay:bee_block"
+    }
+  ],
+  "result": {
+    "item": "kay:bee_ingot",
+    "count": 9
+  }
+}

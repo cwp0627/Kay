@@ -1,0 +1,12 @@
+{
+  "group": "kay",
+  "type": "minecraft:smelting",
+  "experience": 3.5,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "kay:bee_ore"
+  },
+  "result": {
+    "item": "kay:bee_ingot"
+  }
+}

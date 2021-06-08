@@ -1,0 +1,24 @@
+{
+  "group": "kay",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "kay:bee_ingot"
+    },
+    "1": {
+      "item": "kay:bee_ingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "kay:bee_sword",
+    "count": 1
+  }
+}

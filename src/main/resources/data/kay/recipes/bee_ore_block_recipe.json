@@ -1,0 +1,42 @@
+{
+  "group": "kay",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "kay:bee_ingot"
+    },
+    "1": {
+      "item": "kay:bee_ingot"
+    },
+    "2": {
+      "item": "kay:bee_ingot"
+    },
+    "3": {
+      "item": "kay:bee_ingot"
+    },
+    "4": {
+      "item": "kay:bee_ingot"
+    },
+    "5": {
+      "item": "kay:bee_ingot"
+    },
+    "6": {
+      "item": "kay:bee_ingot"
+    },
+    "7": {
+      "item": "kay:bee_ingot"
+    },
+    "8": {
+      "item": "kay:bee_ingot"
+    }
+  },
+  "result": {
+    "item": "kay:bee_block",
+    "count": 1
+  }
+}

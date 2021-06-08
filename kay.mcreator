@@ -1,10 +1,219 @@
 {
   "id_map": {},
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "BeeIngot",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bee_ingot"
+    },
+    {
+      "name": "BeeOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bee_ore"
+    },
+    {
+      "name": "BeeBlock",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bee_block"
+    },
+    {
+      "name": "BeeOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bee_ore_block_recipe"
+    },
+    {
+      "name": "BeeBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bee_block_ore_recipe"
+    },
+    {
+      "name": "BeeOreSmelting",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bee_ore_smelting"
+    },
+    {
+      "name": "BeePickaxe",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bee_pickaxe"
+    },
+    {
+      "name": "BeeAxe",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bee_axe"
+    },
+    {
+      "name": "BeeSword",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bee_sword"
+    },
+    {
+      "name": "BeeShovel",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bee_shovel"
+    },
+    {
+      "name": "BeeHoe",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bee_hoe"
+    },
+    {
+      "name": "BeePickaxeRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bee_pickaxe_recipe"
+    },
+    {
+      "name": "BeeAxeRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bee_axe_recipe"
+    },
+    {
+      "name": "BeeSwordRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bee_sword_recipe"
+    },
+    {
+      "name": "BeeShovelRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bee_shovel_recipe"
+    },
+    {
+      "name": "BeeHoeRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bee_hoe_recipe"
+    },
+    {
+      "name": "BeeArmor",
+      "type": "armor",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bee_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "BeeArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bee_armor_helmet_recipe"
+    },
+    {
+      "name": "BeeArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bee_armor_body_recipe"
+    },
+    {
+      "name": "BeeArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bee_armor_leggings_recipe"
+    },
+    {
+      "name": "BeeArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bee_armor_boots_recipe"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "block.kay.bee_ore": "Bee Ore",
+      "item.kay.bee_shovel": "Bee Shovel",
+      "item.kay.bee_armor_leggings": "Bee Leggings",
+      "item.kay.bee_axe": "Bee Axe",
+      "item.kay.bee_pickaxe": "Bee Pickaxe",
+      "item.kay.bee_armor_helmet": "Bee Helmet",
+      "item.kay.bee_ingot": "Bee",
+      "block.kay.bee_block": "Block of Bee",
+      "item.kay.bee_armor_boots": "Bee Boots",
+      "item.kay.bee_armor_chestplate": "Bee Chestplate",
+      "item.kay.bee_sword": "Bee Sword",
+      "item.kay.bee_hoe": "Bee Hoe"
+    }
   },
   "foldersRoot": {
     "name": "~",
