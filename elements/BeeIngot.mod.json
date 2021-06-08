@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "bee_ingot",
+    "texture": "beeingot",
     "customModelName": "Normal",
     "name": "Bee",
     "rarity": "COMMON",
