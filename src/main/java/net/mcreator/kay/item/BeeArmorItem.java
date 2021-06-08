@@ -37,17 +37,17 @@ public class BeeArmorItem extends KayModElements.ModElement {
 		IArmorMaterial armormaterial = new IArmorMaterial() {
 			@Override
 			public int getDurability(EquipmentSlotType slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 75;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 30;
 			}
 
 			@Override
 			public int getDamageReductionAmount(EquipmentSlotType slot) {
-				return new int[]{10, 30, 25, 10}[slot.getIndex()];
+				return new int[]{4, 12, 10, 4}[slot.getIndex()];
 			}
 
 			@Override
 			public int getEnchantability() {
-				return 45;
+				return 18;
 			}
 
 			@Override

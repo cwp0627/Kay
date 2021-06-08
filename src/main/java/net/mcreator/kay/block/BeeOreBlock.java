@@ -60,8 +60,8 @@ public class BeeOreBlock extends KayModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(15f, 18.11949159194239f).setLightLevel(s -> 0)
-					.harvestLevel(10).harvestTool(ToolType.PICKAXE).setRequiresTool());
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(6f, 8.705505632961241f).setLightLevel(s -> 0)
+					.harvestLevel(4).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("bee_ore");
 		}
 
@@ -107,8 +107,8 @@ public class BeeOreBlock extends KayModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 1)).range(14)
-					.square().func_242731_b(2);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 3)).range(33)
+					.square().func_242731_b(5);
 			event.getRegistry().register(feature.setRegistryName("bee_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("kay:bee_ore"), configuredFeature);
 		}

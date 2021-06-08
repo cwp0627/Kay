@@ -24,23 +24,23 @@ public class BeeShovelItem extends KayModElements.ModElement {
 	public void initElements() {
 		elements.items.add(() -> new ShovelItem(new IItemTier() {
 			public int getMaxUses() {
-				return 2380;
+				return 660;
 			}
 
 			public float getEfficiency() {
-				return 16f;
+				return 9f;
 			}
 
 			public float getAttackDamage() {
-				return 8f;
+				return 2f;
 			}
 
 			public int getHarvestLevel() {
-				return 10;
+				return 4;
 			}
 
 			public int getEnchantability() {
-				return 70;
+				return 28;
 			}
 
 			public Ingredient getRepairMaterial() {
