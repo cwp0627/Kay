@@ -5,10 +5,11 @@
   "item.kay.bee_pickaxe": "Bee Pickaxe",
   "item.kay.bee_axe": "Bee Axe",
   "item.kay.bee_armor_helmet": "Bee Helmet",
-  "item.kay.bee_ingot": "Bee",
   "block.kay.bee_block": "Block of Bee",
+  "item.kay.bee_ingot": "Bee Ingot",
   "item.kay.bee_armor_boots": "Bee Boots",
   "item.kay.bee_armor_chestplate": "Bee Chestplate",
+  "block.kay.free_bee_machine": "Free-Bee Machine",
   "item.kay.bee_sword": "Bee Sword",
   "item.kay.bee_hoe": "Bee Hoe"
 }

@@ -197,13 +197,31 @@
       "registry_name": "bee_armor_boots_recipe"
     },
     {
-      "name": "BeeIngotItemIsDroppedByPlayer",
-      "type": "procedure",
+      "name": "FreeBeeMachine",
+      "type": "block",
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "bee_ingot_item_is_dropped_by_player",
+      "registry_name": "free_bee_machine"
+    },
+    {
+      "name": "Freebeemachinerecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freebeemachinerecipe"
+    },
+    {
+      "name": "Freebeeprocedure",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "freebeeprocedure",
       "metadata": {
         "dependencies": [
           {
@@ -224,6 +242,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "FreeBeeUI",
+      "type": "gui",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "free_bee_ui"
     }
   ],
   "variable_elements": [],
@@ -236,10 +263,11 @@
       "item.kay.bee_pickaxe": "Bee Pickaxe",
       "item.kay.bee_axe": "Bee Axe",
       "item.kay.bee_armor_helmet": "Bee Helmet",
-      "item.kay.bee_ingot": "Bee",
       "block.kay.bee_block": "Block of Bee",
+      "item.kay.bee_ingot": "Bee Ingot",
       "item.kay.bee_armor_boots": "Bee Boots",
       "item.kay.bee_armor_chestplate": "Bee Chestplate",
+      "block.kay.free_bee_machine": "Free-Bee Machine",
       "item.kay.bee_sword": "Bee Sword",
       "item.kay.bee_hoe": "Bee Hoe"
     }

@@ -83,6 +83,12 @@ public class BeeOreBlock extends KayModElements.ModElement {
 			boolean blockCriteria = false;
 			if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.GRANITE.getDefaultState().getBlock())
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.DIORITE.getDefaultState().getBlock())
+				blockCriteria = true;
+			if (blockAt.getBlock() == Blocks.ANDESITE.getDefaultState().getBlock())
+				blockCriteria = true;
 			return blockCriteria;
 		}
 
@@ -107,7 +113,7 @@ public class BeeOreBlock extends KayModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 3)).range(33)
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 3)).range(20)
 					.square().func_242731_b(5);
 			event.getRegistry().register(feature.setRegistryName("bee_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("kay:bee_ore"), configuredFeature);

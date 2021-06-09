@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kay:blocks/freebeemachine",
+    "up": "kay:blocks/freebeemachine",
+    "north": "kay:blocks/freebeemachine",
+    "east": "kay:blocks/freebeemachine",
+    "south": "kay:blocks/freebeemachine",
+    "west": "kay:blocks/freebeemachine",
+    "particle": "kay:blocks/freebeemachine"
+  }
+}

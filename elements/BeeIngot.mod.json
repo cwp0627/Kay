@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "beeingot",
+    "texture": "bee_ingot",
     "customModelName": "Normal",
-    "name": "Bee",
+    "name": "Bee Ingot",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "MISC"
